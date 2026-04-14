@@ -1,4 +1,10 @@
 
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+
 | So what's all this then ? | Cell 2 |
 | -------- | |
 | Mostly technical fieldnotes from providing AWS partner ecosystem engineering support across PartnerCentral, Marketplace etc. Occasional insights from or detours into AWS partner/alliance business management and operations.  | Cell 2   |
