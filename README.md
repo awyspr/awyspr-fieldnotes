@@ -2,7 +2,8 @@
 
 Mostly technical fieldnotes from providing AWS partner ecosystem engineering support across PartnerCentral, Marketplace etc. Occasional insights from or detours into AWS partner/alliance business management and operations.
 
-Warning! Some opinions included.
+Warning! Some opinions included :-)
+
 ---
 
 [post1](post1.md)
