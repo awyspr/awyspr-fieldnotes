@@ -9,6 +9,17 @@ There's basically 2 changes:
 * Adding support for Metering
 * Adding support for User Agents
 
+### Metering
+
+If you publish Amazon Machine Images (AMIs) or Machine Learning (ML) products to marketplace, then Metering is an important part of PRM for you - and prior to this release, you didn't get much love. 
+
+But now its easy - [you don't have to do anything to make it work!!](https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/marketplace-metering-implementation.html) - essentially if you are publishing EC2 AMIs or Sagemaker AI ML models, you're already hooking the metering API when they are purchased and provisioned, and that data flows into PRM.
+
+### User Agents
+
+Perhaps the most notable addition is support for User Agent tagging of API/CLI calls as a partial alternative to Resource tagging. There's only a subset of services currently supporting the [PRM UA](https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/user-agent-included-services.html), so there's still a gap between Resource-taggable and User Agent-taggable services and the possible total set of AWS services that could make up a workload which is tracked for PRM purposes. 
+
+The HOW-TO part is pretty easy if you have some AWS technical experience:
 
 missing cnp
 
