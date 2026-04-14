@@ -2,7 +2,16 @@
 
 ## So whats this all about ?
 
+While a lot of folk were getting into the chocolates over the Easter weekend, AWS have released new support info and capabilities for their previously released Partner Revenue Measurement (PRM) efforts. The [onboarding/getting started guide is updated] (https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/getting-started.html)
+
+There's basically 2 changes:
+
+* Adding support for Metering
+* Adding support for User Agents
+
+
 missing cnp
+
 
 ``
   "eventName": "RunInstances",
