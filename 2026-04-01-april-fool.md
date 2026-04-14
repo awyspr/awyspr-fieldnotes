@@ -1,4 +1,4 @@
-# 20260401-aprilfool
+# 2026-04-01-april-fool
 
 Plain text
 
