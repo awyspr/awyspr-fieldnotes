@@ -6,6 +6,8 @@ Warning! Some opinions included :-)
 
 ---
 
+## 2026
+
 ### April 2026
 * [2026-04-07 Here comes PRM again!](2026-04-07-here-comes-prm-again.md)
 * [2026-04-01 April Fool](2026-04-01-april-fool.md)
@@ -15,6 +17,8 @@ Warning! Some opinions included :-)
 ### February 2026
 
 ### January 2026
+
+## 2025
 
 ### 2025-12
 
