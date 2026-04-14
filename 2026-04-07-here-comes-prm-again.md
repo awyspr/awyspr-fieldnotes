@@ -29,9 +29,14 @@ The HOW-TO part is pretty easy if you have some AWS technical experience:
 
 2. Create the User Agent string using the format ```APN_1.1/pc_<YOUR-PRODUCT-CODE>$```. (Don't trim the ```$```; its not a typo).
 
-3. Now here comes the hand-wavy bit - "update your AWS SDK Configuration to include the User Agent string". Lets assume you are at least going to experiment with the CLI and have an IAM user that has the right permissions so you can aws login without an error:
+3. Now here comes the hand-wavy bit - "update your AWS SDK Configuration to include the User Agent string".
+
+Lets assume you are at least going to experiment with the CLI and have an IAM user that has the right permissions so you can aws login without an error:
 
 ```
+# login
+aws login
+
 # Set user-agent string for AWS CLI
 export AWS_SDK_UA_APP_ID="APN_1.1/pc_xxxxxxxxxx$"
 
@@ -53,7 +58,6 @@ aws logs filter-log-events \
 
 you should see something like this:
 
-
 ```
   "eventName": "RunInstances",
   "eventSource": "ec2.amazonaws.com",
@@ -67,7 +71,6 @@ you should see something like this:
   ]
 }
 ```
-
 
 ## The wrap up
 
