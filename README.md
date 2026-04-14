@@ -1,7 +1,7 @@
 <table>
 <tr>
 <td>So what's all this then ? </td>
-<td></td>
+<td rowspan="2"></td>
 </tr>
 <tr>
 <td>Mostly technical fieldnotes from providing AWS partner ecosystem engineering support across PartnerCentral, Marketplace etc. Occasional insights from or detours into AWS partner/alliance business management and operations. <br> Warning! Some opinions included :-)</td>
