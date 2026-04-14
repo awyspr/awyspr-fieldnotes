@@ -1,4 +1,4 @@
-So what's all this then ?
+noSo what's all this then ?
 
 Mostly technical fieldnotes from providing AWS partner ecosystem engineering support across PartnerCentral, Marketplace etc. Occasional insights from or detours into AWS partner/alliance business management and operations.
 
@@ -11,7 +11,8 @@ Warning! Some opinions included :-)
 [post2](post2.md)
 
 ### 2026-04
-* [2026-04-01-april-fool](2026-04-01-april-fool.md)
+* [2026-04-07 Here comes PRM again!](2026-04-07-here-comes-prm-again.md)
+* [2026-04-01 April Fool](2026-04-01-april-fool.md)
 
 ### 2026-03
 
