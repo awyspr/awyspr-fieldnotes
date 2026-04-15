@@ -79,11 +79,11 @@ aws marketplace-discovery search-listings \
 --search-text "Drata"
 ```
 
-Like many AWS integration services for PartnerCentral and marketplace, the Disco API only works in us-east-1, so make sure your systems team tests it there.
+Like many AWS integration services for PartnerCentral and Marketplace, the Discovery API only works in ```us-east-1```, so make sure your systems team tests it there. And make sure its not having a hiccup at the time ...
 
-The ```IntegrationId``` is the one wierd bit for this API. Allegedly you need to include it (does not matter what the value is, just not zero), but our testing suggests its not supported by the aws marketplace-discovery method - YMMV.
+The ```IntegrationId``` is the one wierd bit for this API. Allegedly according to docs you need to include it (does not matter what the value is, just not zero), but our testing suggests its not supported by the ```marketplace-discovery``` method - wierd.
 
-They should get back something like this:
+Systems folks should get back something like this:
 
 ```
 {
@@ -100,11 +100,11 @@ They should get back something like this:
             "logoThumbnailUrl": "https://d7umqicpi7263.cloudfront.net/img/product/ef9576fc-b0ca-4fe6-99d1-c84db6785107.com/d3509d5b0e23957146ac186105784e8d",
 ```
 
-... and a whole bunch more. Regardless of the rest, if they get back the first bit, its working :-)
+... and a whole bunch more. Regardless of the rest, if they get back the first bit, its working.
 
 
 ## The wrap up
 
-There's a bit of fiddling with this as its an IAM access controlled API; which is normal for AWS infrastructure but often a bit beyond what a partner alliance lead or team member might have to deal with. That relationship you established with your AWS systems folk when you got PartnerCentral migrated over to the Console will be something you keep coming back to. But basically the Disco API works if you've got the right permissions on the account. So now we can have some fun!
+There's a bit of fiddling with this as its an IAM access controlled API; which is normal for AWS infrastructure but often a bit beyond what a partner alliance lead or team member might have to deal with. That relationship you established with your AWS systems folk when you got PartnerCentral migrated over to the Console will be something you keep coming back to. But basically the Marketplace Discovery API works if you've got the right permissions on the account. So now we can have some fun!
 
 [Back to awyspr fieldnotes index](https://awyspr.github.io/awyspr-fieldnotes)
