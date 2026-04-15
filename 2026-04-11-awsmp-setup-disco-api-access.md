@@ -6,7 +6,7 @@
 
 ## What's this one all about then ?
 
-So if you were following along the new AWSMP Discovery API trail you might have noticed that its got [access control](https://docs.aws.amazon.com/marketplace/latest/APIReference/discovery-api-access-control.html)
+So if you were following along the new AWSMP Discovery API trail you might have noticed that its got [access control](https://docs.aws.amazon.com/marketplace/latest/APIReference/discovery-api-access-control.html).
 
 In practice what this means is:
 
