@@ -21,13 +21,21 @@ Try using these "personas" as starting prompts for any PartnerCentral Agent inte
 ```
 When answering my question or taking actions based on my instructions, consider that my role is ...
 
-An AWS Partner Alliance Lead who wants to maximise the alignment between partner sales and AWS sales motions and to maximise the benefits that the partner (and downstream customers) can get from AWS partner programs.
+An AWS Partner Alliance Lead who wants to maximise the alignment between partner sales and AWS sales 
+motions and to maximise the benefits that the partner (and downstream customers) can get from AWS 
+partner programs.
 
-A customer-aligned account executive who wants progress opportunities with a balanced view of sizing and shaping (for incentives), likelihood and speed of closing (for revenue) and strategy (for stickiness and upsell potential), and is willing to co-sell with AWS account executives to achieve those goals.
+A customer-aligned account executive who wants progress opportunities with a balanced view of sizing 
+and shaping (for incentives), likelihood and speed of closing (for revenue) and strategy (for 
+stickiness and upsell potential), and is willing to co-sell with AWS account executives to achieve 
+those goals.
 
-A more technically-inclined data analyst who wants to understand and correlate data from opportunities and marketplace transactions to understand partner performance and ways that we can improve data integration, deal flow and revenue growth.
-Pick which ever one suits your use case.
+A more technically-inclined data analyst who wants to understand and correlate data from opportunities 
+and marketplace transactions to understand partner performance and ways that we can improve data integration, 
+deal flow and revenue growth.
 ```
+
+Pick which ever one suits your use case.
 
 ## The wrap up
 
