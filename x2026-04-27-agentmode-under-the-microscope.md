@@ -70,7 +70,7 @@ itself to make a point). Here's two: we are comparing two GRC automation product
 evidence is coming from Sprinto (another GRC automation competitor) including their analysis of Delve vs yet another
 competitor, Vanta.
 
-<img src="assets/.png" width="40%" height="40%"><img src="assets/.png" width="40%" height="40%">
+<img src="assets/drata vs delve with sprinto review of delve.png" width="40%" height="40%"><img src="assets/drata vs delve with sprinto on delve vs vanta.png" width="40%" height="40%">
 
 The linkages/reference embedding is not awesome either, but at least you're getting some evidence for the AgentMode's 
 conclusions (which is better than some agentic marketplaces where there's a bare recommendation of a solution with 
