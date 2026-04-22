@@ -20,9 +20,12 @@ scrape with a one page load and a DOM parser, its generally better not to go dow
 you need to work with that data when you can get it back as JSON. Assuming of course you have 
 an AWS account and a user with the right IAM permissions to call the Disco API (see our earlier post).
 
-Counter point, in the browser, we get an AI summary of the result set "sometimes" (when there's 
-"reasonable" commonality between results, rather than it being a true mixed bag. That summary 
-isn't available over the Disco API. here's what you're missing: [IMG]
+Counter point, in the browser, we also get an AI summary of the result set "sometimes" (when there's 
+"reasonable" commonality between results, rather than it being a true mixed bag. That summary isn't available over the Disco API. 
+
+Here's what you're missing: 
+
+[IMG]
 
 For product, we can again either select an item off the search or just pass in the prodview- ID 
 if we know what it is. Doesn't matter how we do this, so lets just pick one. https://aws.amazon.com/marketplace/pp/prodview-brb73nceicv7u will do.
@@ -33,18 +36,33 @@ parsing it out from a scrape isn't that pleasant.
 
 But whats missing - compared to the browsing experience - are these two pieces: 
 
-* Similar Products - there's nothing on the Disco API for this part. You're missing this 
-section with the Disco API: [IMG]
+* Similar Products - there's nothing on the Disco API for this part.
+
+You're missing this section with the Disco API: 
+
+[IMG]
 
 * Customer Reviews - you can get the reviews metadata (eg counts, sources as a part of XXX), 
-but not the actual reviews. Here's what you're missing: [IMG]
+but not the actual reviews.
+
+Here's what you're missing: 
+
+[IMG]
 
 Now in both cases - the missing bits for search, its probably fair to say that most programmatic 
-interactions with AWSMP via Discovery API are not likely to be looking for the AWSMP-provided AI summary/overview. 
+interactions with AWSMP via Discovery API are not likely to be looking for the AWSMP-provided AI summary/overview
+or the potential comparisons or the review details.
+
 If you're building some kind of overlay on AWSMP though, its pretty likely your users are going to 
 care about similar products and about actual customer reviews (rather than just the counts).
 
 _MORE NOTES HERE_
+
+What the API does NOT provide: Ranked search position (no rank integer in response — sorting by RELEVANCE exists but no per-item rank), AI overview text, screenshots, 
+
+The Discovery API doesn't provide very much support for seller info either - you can get the ID. In the browser you can drill down and see a profile of the seller. seller bio/profile body, seller catalog product list, AgentMode results, individual review text, product overviewText (the long-form prose block), the AWSMP prodviewId URL slug directly (unconfirmed until spike runs).
+
+seller profile is linkable, but there is no discovery API equivalent of "who is this seller" which you can get with 1 click on the UI.
 
 ## The wrap up
 
@@ -58,8 +76,4 @@ a system programmatically work with the Marketplace surface at the same breadth 
 
 
 
-NOTES:
 
-What the API does NOT provide: Ranked search position (no rank integer in response — sorting by RELEVANCE exists but no per-item rank), AI overview text, screenshots, seller bio/profile body, seller catalog product list, AgentMode results, individual review text, product overviewText (the long-form prose block), the AWSMP prodviewId URL slug directly (unconfirmed until spike runs).
-
-seller profile is linkable, but there is no discovery API equivalent of "who is this seller" which you can get with 1 click on the UI.
