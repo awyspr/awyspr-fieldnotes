@@ -12,7 +12,7 @@ Four things stick out a bit funny with AgentMode from our testing.
 
 1) AgentMode can compare a maximum of 5 products (this is a constraint of how many product IDs you 
 can shove onto the end of a URL like ```https://aws.amazon.com/marketplace/agentmode/#/?agent=comparison&listingIds=```). 
-ow this in itself isn't all that strange, a buyer does typically triage to a short list for a deeper dive. 
+Now this in itself isn't all that strange, a buyer does typically triage to a short list for a deeper dive. 
 But its problematic if you got to AgentMode from some kind of a search with an AI overview and there were say 
 100 results and maybe 10-15 of them were analysed by the AI overview feature. You're forced to break them up 
 into groups, you can't do an N-way comparison of a list longer than 5. Maybe with a logged in user they could allow 
