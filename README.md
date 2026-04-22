@@ -11,12 +11,13 @@
 
 ### April 2026
 * [2026-04-22 Attributed Revenue Dashboards - Almost Completing the PRM Puzzle](2026-04-22-attributed-revenue-dashboards.md)
-* [2026-04-17 AgentMode Under the Microscope](2026-04-17-agentmode-under-the-microscope.md)
+* [2026-04-17 Putting AgentMode under the microscope](2026-04-17-agentmode-under-the-microscope.md)
+* [2026-04-11 Get setup for the AWSMP Discovery API](2026-04-11-awsmp-setup-disco-api-access.md)
 * [2026-04-10 AWSMP Discovery API is now public](2026-04-10-awsmp-disco-api-public.md)
 * [2026-04-07 Here comes PRM (again)](2026-04-07-here-comes-prm-again.md)
 
 ### March 2026
-* [2026-03-27 PartnerCentral Agents Prompt Hacking with Personas](2026-03-27-partnercentral-agents-prompt-hacking.md)
+* [2026-03-27 PartnerCentral Agents prompt hacking with personas](2026-03-27-partnercentral-agents-prompt-hacking.md)
   
 ### February 2026
 
