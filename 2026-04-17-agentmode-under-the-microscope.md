@@ -11,16 +11,19 @@ We've been working a bit with the [AWS Marketplace AgentMode feature](https://aw
 Four things stick out a bit funny with AgentMode from our testing.
 
 1) AgentMode can compare a maximum of 5 products (this is a constraint of how many product IDs you 
-can shove onto the end of a URL like ```https://aws.amazon.com/marketplace/agentmode/#/?agent=comparison&listingIds=```). 
+can shove onto the end of a URL like ```https://aws.amazon.com/marketplace/agentmode/#/?agent=comparison&listingIds=```).
+ 
 Now this in itself isn't all that strange, a buyer does typically triage to a short list for a deeper dive. 
 But its problematic if you got to AgentMode from some kind of a search with an AI overview and there were say 
 100 results and maybe 10-15 of them were analysed by the AI overview feature. You're forced to break them up 
 into groups, you can't do an N-way comparison of a list longer than 5. Maybe with a logged in user they could allow 
 a list of 10 ?
 
-2) AgentMode seems blissfully unaware when you ask it to compare things that are very different (and 
-are unlikely to be compared in the real world): I'd like to compare an apple, a temple and a boat.  Perhaps 
-extreme but you can tell AgentMode to compare some very unlikely things, like a service to help AWS partners GTM, 
+3) AgentMode seems blissfully unaware when you ask it to compare things that are very different (and 
+are unlikely to be compared in the real world).
+
+I'd like to compare an apple, a temple and a boat. Perhaps extreme but you can tell AgentMode to compare 
+some very unlikely things, like a service to help AWS partners GTM, 
 a security ISV product, and an financial markets capital optimization platform:
 
 * [Labra Partner Development Manager (PDM) on Demand for AWS ISV Alliance](https://aws.amazon.com/marketplace/pp/prodview-dfpm5amnqswn6)
@@ -35,7 +38,7 @@ legitimately compared" would probably be useful, even if that was just saving pr
 themselves or preventing DDoS type overloads from people hitting up AgentMode with malicious payloads (ahem! don't 
 repeatedly hit that URL for fun).
 
-3) it takes quite a long time to get a full result set. 
+3) It takes quite a long time to get a full result set, you should expect a 3-4 min wait, perhaps longer. 
 
 So if you decide to AgentMode leave early, you'll end up with tabulated empty or partial comparisons. This is an issue both with the table 
 on the web which actually progressively but slowly fills - you might have to make a coffee or hit refresh a few times to encourage it, 
@@ -72,8 +75,9 @@ get faster results for the more common ones, and slower results for the lesser k
 enough for the lesser known ones to complete via the researcher, else you risk skewing the volume of output towards the more 
 common solutions.
 
-4) the AgentMode "evidence" in the form of its category/feature analysis and evidence is ... questionable. The 
-researcher seems to grab highly rated over highly relevant/authoritative URLs and use those to make assessments, 
+4) The AgentMode "evidence" in the form of its category/feature analysis and evidence is ... sometimes questionable.
+
+The researcher seems to grab highly rated over highly relevant/authoritative URLs and use those to make assessments, 
 even when there is more structured detail in the marketplace entries themselves, and when the sources are potentially 
 biased (eg one vendor writing an "objective" review of products in its space and selectively comparing them against 
 itself to make a point). Here's two: we are comparing two GRC automation products, Drata vs Delve, and a bunch of the Delve
