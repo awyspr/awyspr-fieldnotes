@@ -19,6 +19,8 @@ But its problematic if you got to AgentMode from some kind of a search with an A
 into groups, you can't do an N-way comparison of a list longer than 5. Maybe with a logged in user they could allow 
 a list of 10 ?
 
+Also, you can't compare 1 product (ie your own, if you are a vendor). You must do at least 2.
+
 2) AgentMode seems blissfully unaware when you ask it to compare things that are very different (and 
 are unlikely to be compared in the real world).
 
