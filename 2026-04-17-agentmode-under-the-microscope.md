@@ -35,10 +35,12 @@ legitimately compared" would probably be useful, even if that was just saving pr
 themselves or preventing DDoS type overloads from people hitting up AgentMode with malicious payloads (ahem! don't 
 repeatedly hit that URL for fun).
 
-3) it takes quite a long time to get a full result set, and if you decide to leave early, you'll end up with tabulated 
-empty comparisons (this is an issue both with the table on the web which actually progressively but slowly fills - 
-you might have to make a coffee or hit refresh a few times to encourage it, as well as an issue with downloading PDF/CSV 
-which is an interim semi-empty state unless the table itself has been completely filled by the AgentMode researcher). 
+3) it takes quite a long time to get a full result set. 
+
+So if you decide to AgentMode leave early, you'll end up with tabulated empty or partial comparisons. This is an issue both with the table 
+on the web which actually progressively but slowly fills - you might have to make a coffee or hit refresh a few times to encourage it, 
+as well as an issue with downloading PDF/CSV which is an interim semi-empty state unless the table itself has been completely filled by the 
+AgentMode researcher. 
 
 Here's some time-lapse screenshots of a reasonable comparison, focusing on the tabulation panel which ultimately 
 brings the comparison together for a user:
@@ -58,9 +60,17 @@ brings the comparison together for a user:
 90 sec
 <img src="assets/after 90 sec.png" width="25%" height="25%">
 
-Whats the lesson ? Kick off your comparison and then wait 2-3 mins. Go make a coffee, then collect your results. Otherwise they're probably going to be incomplete.
+We've done this a bunch of times (hundreds ...), and from those experiments our records show that
+50% of AgentMode jobs finish within 2 min 40 sec (ie @p50), while 95% of AgentMode
+jobs finish within 4 min 15 sec (ie @p95). Longest wait to complete we have seen is 13 min and 51 sec (ie (@p100).
 
-The extended lesson is if you have a mix of products in your AgentMode comparison set you're likely to get faster results for the more common ones, and slower results for the lesser known ones. Be sure to wait long enough for the lesser known ones to complete via the researcher, else you risk skewing the output towards the more common solutions.
+Whats the lesson ? Kick off your comparison and then wait 3-5 mins. Go make a coffee, then collect your results. 
+Otherwise they're probably going to be incomplete and if you are relying on that data for insight and purchasing decisions.
+
+Additional observation is if you have a mix of products in your AgentMode comparison set you're likely to 
+get faster results for the more common ones, and slower results for the lesser known ones. Be sure to wait long 
+enough for the lesser known ones to complete via the researcher, else you risk skewing the volume of output towards the more 
+common solutions.
 
 4) the AgentMode "evidence" in the form of its category/feature analysis and evidence is ... questionable. The 
 researcher seems to grab highly rated over highly relevant/authoritative URLs and use those to make assessments, 
