@@ -21,6 +21,7 @@
 * [2026-03-27 PartnerCentral Agents prompt hacking with personas](2026-03-27-partnercentral-agents-prompt-hacking.md)
   
 ### February 2026
+* [2026-02-06 PRM lands with a thud](2026-02-06-prm-thud.md)
 
 ### January 2026
 
