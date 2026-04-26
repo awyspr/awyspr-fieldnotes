@@ -31,6 +31,8 @@
 
 ### November 2025
 
+* [2025-11-22 Short-lived (but short-sighted) permissions for AWSMP provisioning](2026-11-22)
+
 ### October 2025
 
 ---
