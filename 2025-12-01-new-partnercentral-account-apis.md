@@ -1,6 +1,6 @@
 <a href="https://awyspr.com/"><img src="https://awyspr.com/assets/images/image07.svg?v=b4a015c2" width="10%" height="10%" align="left"></a>
 
-# PartnerCentral Account APIs
+# New PartnerCentral Account APIs
 
 2025-12-01
 
@@ -23,12 +23,53 @@ Central, enabling partners to manage their account information, registration, pr
 and partner connections.
 ```
 
-So what's that actually mean ?
+So what's that actually mean ? We got all these methods, and we re-organized the alphabetical list into logical groups:
 
-[WIP]
+These are pretty utilitiarian:
+* GetPartner
+* ListPartners
+* CreatePartner
+
+The ability to kickstart (or re-kickstart) the verification process:
+* StartVerification
+* GetVerification
+
+A whole bunch of methods around Partner connections:
+* GetConnectionPreferences
+* UpdateConnectionPreferences
+* GetConnection
+* ListConnections
+* CreateConnectionInvitation
+* GetConnectionInvitation
+* ListConnectionInvitations
+* AcceptConnectionInvitation
+* RejectConnectionInvitation
+* CancelConnectionInvitation
+* CancelConnection
+
+The ability to add other domains (for training & certification attribution):
+* AssociateAwsTrainingCertificationEmailDomain
+* SendEmailVerificationCode
+* DisassociateAwsTrainingCertificationEmailDomain
+
+A bunch of partner profile setting/change APIs:
+* GetProfileVisibility
+* PutProfileVisibility
+* GetProfileUpdateTask
+* StartProfileUpdateTask
+* CancelProfileUpdateTask
+* GetAllianceLeadContact
+* PutAllianceLeadContact
+
+And we got the ubiquitous "tag it" stuff:
+* ListTagsForResource
+* TagResource
+* UntagResource
 
 Inital call outs:
 
+* The big rocks here re about partner connections (which enable things like ACE opportunity sharing, and Marketplace multi-product solutions) and
+  managing profile content programmatically
 * If the Selling API is similarly scoped, thats going to be a significant step up for managing opportunities across
   both ACE and Marketplace surfaces
 * If the associated Benefits API does what it claims, that will be a big lift for partners who were previously
