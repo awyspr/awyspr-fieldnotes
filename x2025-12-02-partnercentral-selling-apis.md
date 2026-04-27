@@ -2,7 +2,7 @@
 
 # PartnerCentral Selling APIs
 
-2025-11-XX
+2025-12-02
 
 ## What's this one all about then ?
 
