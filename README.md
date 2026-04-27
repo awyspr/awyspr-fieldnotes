@@ -28,9 +28,9 @@
 ## 2025
 
 ### December 2025
+* [2025-12-01 New PartnerCentral Account APIs](2025-12-01-new-partnercentral-account-apis.md)
 
 ### November 2025
-
 * [2025-11-22 Short-lived (but short-sighted) IAM permissions for AWSMP provisioning](2025-11-22-short-lived-but-short-sighted-iam-for-awsmp.md)
 * [2025-11-21 New PartnerCentral Channel APIs](2025-11-21-partnercentral-channel-apis.md)
 
