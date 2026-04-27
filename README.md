@@ -28,6 +28,7 @@
 ## 2025
 
 ### December 2025
+* [2025-12-02 New PartnerCentral Selling APIs](2025-12-02-partnercentral-selling-apis.md)
 * [2025-12-01 New PartnerCentral Account APIs](2025-12-01-new-partnercentral-account-apis.md)
 
 ### November 2025
