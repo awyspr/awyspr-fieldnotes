@@ -1,6 +1,6 @@
 <a href="https://awyspr.com/"><img src="https://awyspr.com/assets/images/image07.svg?v=b4a015c2" width="10%" height="10%" align="left"></a>
 
-# PartnerCentral Selling APIs
+# New PartnerCentral Selling APIs
 
 2025-12-02
 
@@ -77,7 +77,8 @@ And the obligatory "tag this" method collection:
 
 ## The wrap up
 
-Thats quite a lot, but really focused on opportunities and engagement.
+Thats quite a lot, but really focused on opportunities and engagement. We'll drill down into specific aspects of the Selling API 
+over the next few weeks as we work with partners to share and progress their opportunities with AWS.
 
 [Back to awyspr fieldnotes index](https://fieldnotes.awyspr.com)
 
