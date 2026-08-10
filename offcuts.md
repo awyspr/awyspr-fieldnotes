@@ -2,7 +2,16 @@
 
 ## 2026-08 Running
 
-IAM - skinny perms for Marketplace - not FullAccess not Seller just update content ...
+https://awsapichanges.com/archive/changes/7451e2-partnercentral-selling.html
+Partners can now create leads with only 5 required fields and free-text values for all other fields, reducing import friction. Engagement invitations now include enrichment data (propensity scores, lead readiness) directly in the response.
+
+https://awsapichanges.com/archive/changes/32fa45-discovery-marketplace.html
+GetOfferTerms now returns netPaymentTerm in offerTerms, specifying payment due period after invoice date. The paymentDuePeriod field uses ISO 8601 duration format (e.g., "P30D" for net 30 days). This is a backward-compatible addition. See API documentation for full structure and examples.
+
+https://awsapichanges.com/archive/changes/32fa45-agreement-marketplace.html
+GetAgreementTerms now returns a new term variant in AcceptedTerm, netPaymentTerm, with a paymentDuePeriod field (example "P30D").
+
+IAM - skinniest perms for Marketplace - not FullAccess not Seller just update content ...
 
 Freebie - document Hubspot data model/field customizations
 https://github.com/awyspr/hubspot-customdoc/
