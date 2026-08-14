@@ -6,7 +6,7 @@
 
 ## What's this one all about then ?
 
-Which #AWS services are live in which regions ? This might seem like a fairly simple question, but its important if you're 
+Which AWS services are live in which regions ? This might seem like a fairly simple question, but its important if you're 
 deploying something and you want it to be regionally-contained, eg for digital sovereignty reasons or because of end user 
 proximity and performance.
 
@@ -16,7 +16,7 @@ you are in APJ. What's the difference in the range of services available in ap-s
 ? Or between eu-central-1 (Frankfurt) and eu-central-2 (Zurich) ?
 
 awyspr 's unofficial AWS Service Matrix builds a view from AWS' own public inventories and data feeds to show which services 
-are available where, with daily automated updates, and without needing to mess about in the AWS console or with the CI. 
+are available where, with daily automated updates, and without needing to mess about in the AWS console or with the CLI. 
 
 Take a look, and you might be suprised: [https://awsservicematrix.info](https://awsservicematrix.info/)
 
