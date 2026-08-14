@@ -23,6 +23,6 @@ Take a look, and you might be suprised: [https://awsservicematrix.info](https://
 ## The wrap up
 
 In the world of AWS, not all services are created equal, and not all regions are either. That's not a criticism, its reality, and hopefully
-our tool https://awsservicematrix.info helps people understand the diversity a bit more.
+our tool helps people understand that diversity a bit more so they can plan regional deployments.
 
 [Back to awyspr fieldnotes index](https://fieldnotes.awyspr.com)
