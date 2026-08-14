@@ -10,6 +10,9 @@ Attribution: All content on these pages is written by humans, not by AI.</td>
 
 ## 2026
 
+### August 2026
+* [2026-08-14 Which AWS services are available in which regions ?](2026-08-14-awsservicematrix.md)
+
 ### June 2026
 * [2026-06-04 Ability to cancel funding has been itself been cancelled (or has it) ?](2026-06-04-cancel-funding.md)
 * [2026-06-02 Finding missing resource tags](2026-06-02-finding-missing-resource-tags.md)
