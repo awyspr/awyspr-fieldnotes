@@ -2,6 +2,10 @@
 
 ## 2026-08 Running
 
+Hallelujah
+https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-managed-buyer-notifications/
+
+
 https://awsapichanges.com/archive/changes/7451e2-partnercentral-selling.html
 Partners can now create leads with only 5 required fields and free-text values for all other fields, reducing import friction. Engagement invitations now include enrichment data (propensity scores, lead readiness) directly in the response.
 
