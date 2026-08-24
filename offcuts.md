@@ -2,6 +2,9 @@
 
 ## 2026-08 Running
 
+Marketplace malfunctions
+https://awsapichanges.com/archive/changes/4c9ef8-catalog.marketplace.html
+
 Hallelujah
 https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-managed-buyer-notifications/
 
