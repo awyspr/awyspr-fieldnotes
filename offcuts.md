@@ -1,5 +1,8 @@
 # Offcuts & WIP Notes
 
+## 2026-09 Running
+https://aws.amazon.com/blogs/apn/solution-matching-engine-your-gateway-to-aws-sellers/
+
 ## 2026-08 Running
 
 Marketplace malfunctions
