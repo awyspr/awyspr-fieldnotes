@@ -1,6 +1,9 @@
 # Offcuts & WIP Notes
 
 ## 2026-09 Running
+
+https://awsapichanges.com/archive/changes/31b875-discovery-marketplace.html
+
 https://aws.amazon.com/blogs/apn/solution-matching-engine-your-gateway-to-aws-sellers/
 
 ## 2026-08 Running
